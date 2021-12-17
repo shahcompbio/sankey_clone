@@ -40,4 +40,4 @@ You may specify these optional arguments:
 
 - Links show clone flow
 
-![Sankey version 1 diagram](demo.png)
+![Sankey version 1 diagram](demo_v1.png)
