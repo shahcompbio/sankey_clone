@@ -1,10 +1,10 @@
 # Sankey
 
-A Jinja template containing an interactive Sankey diagram that displays how clonal distribution changes proportionally across two timepoints, grouped by cell type. An h5ad file is used to populate the template with data.
+A Jinja template containing an interactive Sankey diagram that displays how phenotype distribution changes proportionally across two timepoints. An h5ad file is used to populate the template with data.
 
 This was built using [Planetarium](https://github.com/shahcompbio/planetarium) and [Telescope](https://github.com/redpanda-cat/telescope)
 
-![Sankey diagram example](demo.png)
+![Sankey diagram example](demo_v2.png)
 
 ## How to use
 
@@ -32,3 +32,12 @@ You may specify these optional arguments:
 --subtype : Column name for cell type in obs table. Defaults to "cell_type"
 
 ```
+
+
+## Past Versions
+
+### V1
+
+- Links show clone flow
+
+![Sankey version 1 diagram](demo.png)
